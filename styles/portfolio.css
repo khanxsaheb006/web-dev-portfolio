@@ -9,11 +9,19 @@
 
 /* shared style */
 
+.sec-bg{
+    background-color: #FFF8F3;
+    text-align: center;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
 .dark-2{
     color: #474747;
+}
+.dark-3{
+    color: #757575;
 }
 
 .btn-primary{
@@ -109,11 +117,6 @@ main section{
     border: 1px solid black;
 }
 
-.sec-bg{
-    background-color: #FFF8F3;
-    text-align: center;
-}
-
 .about-items{
     display: flex;
     justify-content: space-around;
@@ -135,4 +138,61 @@ gap: 24px;
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
+}
+
+/* Resume-Container Styles */
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.experience-description, .experience-sub-title{
+    color:#757575;
+}
+
+.experience-description{
+    font-size: 16px;
+}
+hr{
+    margin: 30px;
+}
+
+/* Footer Styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    text-align: left;
+}
+footer input[type="text"], input[type="email"], textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 24px;
+    border: none;
 }
